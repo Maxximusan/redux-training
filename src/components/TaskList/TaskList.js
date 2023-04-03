@@ -37,15 +37,3 @@ export const TaskList = () => {
     </ul>
   );
 };
-
-// export const TaskList = () => {
-//   return (
-//     <ul className={css.list}>
-//       {[].map(task => (
-//         <li className={css.listItem} key={task.id}>
-//           <Task task={task} />
-//         </li>
-//       ))}
-//     </ul>
-//   );
-// };
